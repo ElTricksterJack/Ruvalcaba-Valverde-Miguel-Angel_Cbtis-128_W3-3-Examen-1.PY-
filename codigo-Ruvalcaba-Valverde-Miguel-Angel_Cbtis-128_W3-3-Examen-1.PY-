@@ -6,7 +6,7 @@ A1 = int(input("Añade un primer valor:"))
 A2 = int(input("Añade un segundo valor:"))
 print("----------------------------")
 if A1==A2:#abrimos un if y esto checara que no alla bariables iguales
-    print("Error, colocaste 2 valores iguales")
+    print("Error, colocaste 2 valores iguales Xp")
     exit()#como dije esto cerrara el codigo si hay variables iguales
 else:
     print(" ")
