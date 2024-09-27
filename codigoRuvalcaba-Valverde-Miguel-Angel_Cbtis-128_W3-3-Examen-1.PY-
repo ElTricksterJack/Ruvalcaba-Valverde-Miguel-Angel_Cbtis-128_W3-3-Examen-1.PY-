@@ -1,0 +1,20 @@
+print(" ")
+print("Nombre: Ruvalcaba Valverde Miguel Angel")
+print("----------------------------")
+#primero hay que añadir la opcion de alladir variables
+A1 = int(input("Añade un primer valor:"))
+A2 = int(input("Añade un segundo valor:"))
+print("----------------------------")
+if A1==A2:#abrimos un if y esto checara que no alla bariables iguales
+    print("Error, colocaste 2 valores iguales")
+    exit()#como dije esto cerrara el codigo si hay variables iguales
+else:
+    print(" ")
+#con el sigiente if y elif, se hara la operacion para saver cuale valor es mayor y cual menor
+if A1>A2:
+    print("El valor mayor es:",A1,"El valor menor es:",A2)
+    print("La suma de ambas variables es:",A1+A2)
+elif A1<A2:
+    print("El valor mayor es:",A2,"El valor menor es:",A1)
+    print("La suma de ambas variables es:",A2+A1)
+print(" ")
